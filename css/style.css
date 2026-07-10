@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+header {
+    background: #0b5fa5;
+    color: white;
+    padding: 20px 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("../images/doctor.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 45px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+h2 {
+    color: #0b5fa5;
+}
+
+footer {
+    background: #0b5fa5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background: #c9a227;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
