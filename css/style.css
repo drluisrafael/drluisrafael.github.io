@@ -159,3 +159,34 @@ footer {
     }
 
 }
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-text h3 {
+    color: #0b3d62;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
