@@ -422,3 +422,14 @@ form textarea {
     color: white;
     font-size: 40px;
 }
+.education-card p,
+.service-card p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.education-card h3,
+.service-card h3 {
+    color: #0b3d62;
+}
