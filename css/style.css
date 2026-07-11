@@ -295,3 +295,20 @@ footer p {
 }
 
 }
+.education-card {
+
+    background: white;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 850px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+}
+
+.education-card h3 {
+
+    color: #0b3d62;
+    margin-bottom: 12px;
+
+}
