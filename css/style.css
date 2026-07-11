@@ -368,3 +368,46 @@ form textarea {
     font-weight:bold;
     text-decoration:none;
 }
+/* Mobile Navigation and Layout Improvements */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: 30px 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .profile-image img,
+    .about-profile img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .service-card,
+    .credential-card,
+    .education-card {
+        padding: 25px;
+    }
+
+}
