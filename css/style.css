@@ -350,3 +350,11 @@ form textarea {
     height: 150px;
 
 }
+.brand h1 {
+    letter-spacing: 1px;
+}
+
+.brand p {
+    color: #d4af37;
+    font-weight: bold;
+}
