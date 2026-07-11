@@ -436,3 +436,18 @@ form textarea {
 .trust-section {
     text-align: center;
 }
+.contact-box p,
+.contact-box strong {
+    color: #333333;
+}
+
+.contact-box input,
+.contact-box textarea {
+    color: #333333;
+    background: #ffffff;
+}
+
+.contact-box input::placeholder,
+.contact-box textarea::placeholder {
+    color: #777777;
+}
