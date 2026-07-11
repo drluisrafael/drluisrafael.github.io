@@ -228,3 +228,19 @@ footer h3 {
 footer p {
     margin: 8px 0;
 }
+.consultation {
+    background: #0b3d62;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+.consultation h2 {
+    color: white;
+}
+
+.consultation p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
