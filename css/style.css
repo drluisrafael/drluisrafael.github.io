@@ -411,3 +411,14 @@ form textarea {
     }
 
 }
+.page-title {
+    text-align: center;
+    padding: 60px 20px;
+    background: #0b3d62;
+    color: white;
+}
+
+.page-title h2 {
+    color: white;
+    font-size: 40px;
+}
