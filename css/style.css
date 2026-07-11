@@ -71,3 +71,17 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+.btn {
+    display: inline-block;
+    background: #c9a227;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #a8841e;
+}
