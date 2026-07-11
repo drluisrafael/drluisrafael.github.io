@@ -270,3 +270,28 @@ footer p {
     }
 
 }
+.about-profile {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-profile img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-profile .profile-text {
+    flex: 1;
+}
+
+@media(max-width:768px){
+
+.about-profile {
+    flex-direction: column;
+    text-align: center;
+}
+
+}
